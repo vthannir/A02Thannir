@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+		<title>Convert </title>
+		<link rel="stylesheet" type="text/css" href="vyshnavi.css"/> 
+		
+
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		  <script src="script.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+	<body background="calculate.jpg">
+			<div class="topnav">
+			<a href="info.html">Vyshnavi sri laxmi thannir </a>
+			<a href="Thannir.html">Home</a>
+			<a class="active" href="YourChoice.html">Calculation</a>
+			<a href="Contact.html">Contact</a>
+			</div>
+			<header class="section-header"><h3>
+			<center><b>Just do it....!!</b></center></h3>
+			</header>
+			</header>
+			
+<h2>Calculator</h2>
+        <form>
+            <input type="text" id="firstNum">
+            <select id="opList" onChange="setValue()">
+                <option value="Perimeter">Perimeter of Rectangle</option>
+                <option value="Area">Area of Rectangle</option>
+                <option value="PS">Tan</option>
+                <option value="AS">Cos</option>
+            </select>
+            <input type="text" id="secondNum">
+            <input type="button" id="button" value="=" onclick="handleClick()">
+            <input type="text" id="result" placeholder="Result" readonly onfocus="this.blur();">
+        </form>
+		
+		
+
+			
+	<footer>Footer : Created on 1/9/2018</footer>
+	</body>
